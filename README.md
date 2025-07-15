@@ -34,11 +34,11 @@ This class was created separately to manage extras (toppings), considering that 
 **MealOrder:**
 This class unifies the Burger, Drink, and Side. It instantiates Burger objects and Item objects for drinks and sides. In the general context of the application, the Item class uses the type attribute to indicate the product's category, such as:
 "DRINK" for beverages , "SIDE" for accompaniments  & "BURGER" for hamburgers. **However, in the Burger class, which inherits from Item, the type attribute is reused to represent the type of burger meat—i.e., which "upgrade" was selected. It can take values like:
-- "BASE" — standard burger (no upgrade) 
+- **"BASE"** — standard burger (no upgrade) 
 
-- "BULGOGI" — upgrade to Bulgogi meat
+- **"BULGOGI"** — upgrade to Bulgogi meat
 
-- "VEGGIE" — vegetarian burger
+- **"VEGGIE"** — vegetarian burger
 This decision was made to simplify the current implementation, but it does lead to a slight overloading of the type attribute's meaning.**
 
 **getTotalPrice():** Returns the sum of the burger, drink, and side prices.
