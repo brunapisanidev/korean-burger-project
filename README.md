@@ -11,10 +11,15 @@
 
 
 ## overview
-Self-service simulator for a Korean hamburger restaurant.
+This program simulates the operation of a self-service system for a generic hamburger restaurant, using a Korean hamburger chain as a contextual example.
+Each basic meal includes a burger (common bread, meat, and cheese), a drink, and a side dish — all in medium size by default. If the user keeps the default sizes, no additional charges apply, and the base price remains as defined in the MealOrder class.
 
-This program aims to simulate the operation of a self-service system for a generic hamburger chain. For this context, we've chosen a Korean hamburger chain as an example. The basic order includes a base burger, consisting of common bread, meat, and cheese, along with drinks and sides of medium size. By default, every order comes with a medium-sized drink and side. When the size remains medium, meaning no changes are made by the user, there is no extra charge, and the price remains fixed as defined in the MealOrder class.
-It's possible to upgrade the type of meat, which incurs an additional charge. You can also change the size of the drink and side, which may also result in extra costs.
+Users can customize their order by:
+- **Upgrading the type of meat, which adds an extra fee.**
+
+- **Changing the size of the drink or side, which may also increase the cost.**
+
+This simulator aims to reflect the logic and pricing structure of real-world fast food self-service systems.
 
 ## how-it-works
 **Item**: 
